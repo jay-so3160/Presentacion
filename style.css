@@ -1,0 +1,81 @@
+/* Cambia el color de fondo del body a azul claro */
+body {
+    background-color: #88AACC; /* Azul claro */
+}
+
+/* Aplica el color índigo a los botones de navegación y al pie de página */
+.navbar .nav-link, 
+.btn-primary, 
+.btn-outline-secondary, 
+#contacto {
+    background-color: #184d9bcc; /* Índigo */
+    color: white;
+    border: none;
+}
+
+/* Ajusta el color de los botones de navegación cuando están en estado activo o se pasa el cursor por encima */
+.navbar .nav-link:hover, 
+.navbar .nav-link.active {
+    background-color: #184c9be8; /* Un tono más oscuro de índigo para el hover */
+}
+
+/* Ajusta el color de los botones */
+.btn-primary:hover, 
+.btn-outline-secondary:hover {
+    background-color: #184c9be8; /* Un tono más oscuro de índigo para el hover */
+}
+
+/* Elimina bordes de los botones outline-secondary */
+.btn-outline-secondary {
+    border: 2px solid #184c9be8;
+}
+
+#presentacion {
+    height: 90vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-image: url("fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.proyecto {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#proyecto-1{
+    background-image: url("forense.jpg");
+}
+
+#proyecto-2{
+    background-image: url("google.jpg");
+}
+
+
+
+.text-shadow-1 {
+    text-shadow: -2px 0px 6px rgba(0, 0, 0, 1);
+}
+
+.text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
+.text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
+
+.texto-gigante{
+    font-size: 80px;
+}
+
+.rubik-pixels-regular {
+    font-family: "Rubik Pixels", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sankofa-display-regular {
+    font-family: "Sankofa Display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
